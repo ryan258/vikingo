@@ -46,7 +46,7 @@ section.intro {
 }
 
 section.intro .jumbotron {
-	background: #000;
+	background: rgba(0,0,0,.75);
 	height: 420px;
 	color: #fff;
 }
