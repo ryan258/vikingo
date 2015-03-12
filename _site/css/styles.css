@@ -49,3 +49,9 @@ section.intro .jumbotron {
 [class*="col-"]{
     margin-bottom: 15px;
 }
+
+#site-footer {
+	background: #101010;
+	color: #FFF;
+}
+
