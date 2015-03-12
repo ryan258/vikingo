@@ -45,3 +45,7 @@ section.intro .jumbotron {
 	height: 420px;
 	color: #fff;
 }
+
+[class*="col-"]{
+    margin-bottom: 15px;
+}
