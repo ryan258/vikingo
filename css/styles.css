@@ -50,7 +50,7 @@ section.intro {
 }
 
 section.intro .jumbotron {
-	background: rgba(0,0,0,.75);
+	background: none;
 	height: 420px;
 	color: #fff;
 }
