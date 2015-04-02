@@ -1,5 +1,7 @@
 body {
 	padding-top: 50px;
+	color: #6F1818;
+	background-color: #D8BA9D;
 }
 
 p {
@@ -17,6 +19,11 @@ img {
 
 .glyphicon {
 	font-size: 4em;
+}
+
+.well {
+	background-color: #A9625D;
+	background-image: none;
 }
 
 /*nav ul li {
