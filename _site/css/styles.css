@@ -62,7 +62,7 @@ section.intro {
 	background-image: url('../img/hero-home-main.jpg');
 
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     background-position: center;
     background-size: cover;
 	background-color: rgb(25, 29, 69);
@@ -81,7 +81,7 @@ section.intro {
 section.intro-historia {
 		background-image: url('../img/header-historia.jpg');
 	background-repeat: no-repeat;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     background-position: center;
     background-size: cover;
 	background-color: rgb(25, 29, 69);
