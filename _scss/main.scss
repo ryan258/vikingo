@@ -1,3 +1,11 @@
+/*colors*/
+$white: #ffffff;
+$black: #101010;
+$rampage: #6F1818;
+$peachy: #A9625D;
+$deep-sea: #191d45;
+$bg--bright: #D8BA9D;
+
 * {
 	margin: 0;
 }
@@ -16,8 +24,8 @@ html, body {
 
 body {
 	padding-top: 50px;
-	color: #6F1818;
-	background-color: #D8BA9D;
+	color: $rampage;
+	background-color: $bg--bright;
 }
 
 p {
@@ -38,7 +46,7 @@ img {
 }
 
 .well {
-	background-color: #A9625D;
+	background-color: $peachy;
 	background-image: none;
 }
 
@@ -60,12 +68,11 @@ img {
 
 section.intro {
 	background-image: url('../img/hero-home-main.jpg');
-
-    background-repeat: no-repeat;
-    /*background-attachment: fixed;*/
-    background-position: center;
-    background-size: cover;
-	background-color: rgb(25, 29, 69);
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  background-position: center;
+  background-size: cover;
+	background-color: $deep-sea;
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -79,12 +86,12 @@ section.intro {
 }
 
 section.intro-historia {
-		background-image: url('../img/header-historia.jpg');
+	background-image: url('../img/header-historia.jpg');
 	background-repeat: no-repeat;
-    /*background-attachment: fixed;*/
-    background-position: center;
-    background-size: cover;
-	background-color: rgb(25, 29, 69);
+  /*background-attachment: fixed;*/
+  background-position: center;
+  background-size: cover;
+	background-color: $deep-sea;
 	height: 100vh;
 }
 
@@ -92,21 +99,20 @@ section.intro-historia {
 
 .intro .logo-v {
 	font-size: 40px;
-	color: #fff;
+	color: $white;
 }
 
 section.intro .jumbotron {
 	background: none;
 	height: 420px;
-	color: #fff;
+	color: $white;
 }
 
 [class*="col-"]{
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 #site-footer {
-	background: #101010;
-	color: #FFF;
+	background: $black;
+	color: $white;
 }
-
